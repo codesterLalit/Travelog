@@ -12,8 +12,8 @@
 
     &__content{
         @include alignCenter;
-        width: 75%;
-        display: table;
+        width: 90%;
+        display: block;
         // height: 50rem;
         border-radius: 3px;
         background-color: $color-white;
@@ -25,13 +25,19 @@
     }
     
     &__left{
-        width: 33.333333%;
-        display: table-cell;
+        width:100%;
+        display: block;
+
+    & img{
+        width: 50%;
+        padding: 2rem 6rem;
+        float:left;
+    }
     }
 
     &__right{
-        width: 66.666667%;
-        display:table-cell;
+        width: 100%;
+        display:block;
         vertical-align: middle;
         padding:3rem 5rem;
     }
