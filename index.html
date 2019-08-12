@@ -27,15 +27,16 @@
       <div class="navigation__background">&nbsp;</div>
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book Now</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#header" class="navigation__link"><span>01</span>About Natous</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#about" class="navigation__link"><span>02</span>About Travel Log</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#why" class="navigation__link"><span>03</span>Why Travel Log</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#diaries" class="navigation__link"><span>04</span>Famous Diaries</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#pages" class="navigation__link"><span>05</span>Famous Pages</a></li>
+          <li class="navigation__item"><a onclick="RemoveNav()" href="#excited" class="navigation__link"><span>05</span>Are you excited</a></li>
         </ul>
       </nav>
     </div>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header__logo-box">
         <img src="./img/logo-white.png" alt="logo" class="header__logo" />
       </div>
@@ -50,29 +51,26 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
-            Friend of adventurous traveling people
+              Digital Travel Diary for traveling People
           </h2>
         </div>
         <div class="row">
           <div class="col-1-of-2">
             <h3 class="heading-tertiary u-margin-bottom-small">
-              You're going to be a write of your own journey
+              Record every travling experience as you Travel
             </h3>
             <p class="paragraph">
-              adipisicing elit. Laudantium, rem illo assumenda ex provident
-              consequatur recusandae corporis dolor repellat ipsam sit quisquam
-              tenetur, vel consectetur iusto mollitia omnis? Ipsam, qui?
+              Travel with your digital Travel Diary. Record Every experience in your travel diary. And share your happiness, pain, pleasure, realization and excitement with world in your own unique way. Travel Log is here for you, the digital Diary helping you to make classy Travel Diaries
             </p>
 
             <h3 class="heading-tertiary u-margin-bottom-small">
-              Create traveling memories, everywhere you go
+              Build your travel diaries with artistic way and share
             </h3>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              facilis corrupti voluptate libero, perspiciatis something test.
+              Travel Log provides you the feature why which you can write, paste picture, add map of your place, add stickers of your journey.
             </p>
             <a href="#" class="btn-text">Create Now &rarr;</a>
           </div>
@@ -98,7 +96,7 @@
         </div>
       </section>
 
-      <section class="section-features">
+      <section class="section-features" id="why">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -107,8 +105,7 @@
                 Travel with log
               </h3>
               <p class="feature-box__text">
-                Laudantium Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Laudantium Lorem ipsum dolor sit amet consectetur
+                Travel with travel log and experience, save memories, decorate and share your special journey to the world. Travel log is always here for you.
               </p>
             </div>
           </div>
@@ -116,11 +113,10 @@
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-compass"></i>
               <h3 class="heading-tertiary u-margin-bottom-small">
-                Explore Nature
+                Explore and Relive
               </h3>
               <p class="feature-box__text">
-                Laudantium Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Laudantium Lorem ipsum dolor sit amet consectetur
+                Journies are lessons. As you travel there are many thing that you'll learn, experience and explore. With travel log you can relieve moments as you wish.
               </p>
             </div>
           </div>
@@ -132,8 +128,7 @@
                 Save Map to log
               </h3>
               <p class="feature-box__text">
-                Laudantium Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Laudantium Lorem ipsum dolor sit amet consectetur
+                Adding map to your travel Diary will enable you to record extact place where you've been. So, you may again go to that place to relieve those moments.
               </p>
             </div>
           </div>
@@ -144,8 +139,7 @@
                 Fun with creativity
               </h3>
               <p class="feature-box__text">
-                Laudantium Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Laudantium Lorem ipsum dolor sit amet consectetur
+                Travel Log provides you the tool to play with and create your art, story, journey in your own artistic way so you can show how special your journey was.
               </p>
             </div>
           </div>
@@ -153,7 +147,7 @@
       </section>
 
       <section class="section-tours" id="section-tours">
-        <div class="u-center-text u-margin-bottom-big">
+        <div class="u-center-text u-margin-bottom-big" id="diaries">
           <h2 class="heading-secondary">
             Most popular Diaries
           </h2>
@@ -173,20 +167,20 @@
                 <div class="card__details">
                   <ul>
                     <li>3 Day tour</li>
-                    <li>Up to 30 peopl</li>
-                    <li>Sleeping cozy hotel</li>
-                    <li>2 tour guides</li>
-                    <li>Difficulty:easy</li>
+                    <li>With 5 friends</li>
+                    <li>Around the Coast of Calfornia</li>
+                    <li>Explored sea live</li>
+                    <li>Lesson: I lived</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$347</p>
+                    <p class="card__price-only">Pages</p>
+                    <p class="card__price-value">347</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">Book Now</a>
+                  <a href="#popup" class="btn btn--white">Read Now</a>
                 </div>
               </div>
             </div>
@@ -204,19 +198,19 @@
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>3 Day tour</li>
-                    <li>Up to 40 peopl</li>
-                    <li>Sleeping in provided tents</li>
-                    <li>6 tour guides</li>
-                    <li>Difficulty:medium</li>
+                    <li>10 Day tour</li>
+                    <li>With 6 college friends</li>
+                    <li>Around the Amazon Rain Forest</li>
+                    <li>Meet many tribes, explore lives</li>
+                    <li>Lesson:Criend with joy</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-2">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$247</p>
+                    <p class="card__price-only">Pages</p>
+                    <p class="card__price-value">110</p>
                   </div>
                   <a href="#popup" class="btn btn--white">Book Now</a>
                 </div>
@@ -236,21 +230,21 @@
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>5 Day tour</li>
-                    <li>Up to 15 peopl</li>
-                    <li>Sleeping in provided tents</li>
-                    <li>3 tour guides</li>
-                    <li>Difficulty:Hard</li>
+                    <li>14 Day tour</li>
+                    <li>With my friend Marley</li>
+                    <li>Small and beautiful himalayan Town</li>
+                    <li>Explored amazing lifestyle of Jumla</li>
+                    <li>Lesson :Life is only diffict as we make it</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-3">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$540</p>
+                    <p class="card__price-only">Page</p>
+                    <p class="card__price-value">310</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">Book Now</a>
+                  <a href="#popup" class="btn btn--white">Read Now</a>
                 </div>
               </div>
             </div>
@@ -260,7 +254,8 @@
           <a href="#" class="btn btn--green">Discover all tours</a>
         </div>
       </section>
-      <section class="section-stories">
+
+      <section class="section-stories" id="pages">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4">
@@ -270,7 +265,7 @@
         </div>
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
-            Your friend for every journey
+            Stories of beautiful jourines
           </h2>
         </div>
         <div class="row">
@@ -280,12 +275,9 @@
                   <figcaption class="story__caption">Mary Smith</figcaption>
                 </figure>
                 <div class="story__text">
-                    <h3 class="heading-tertiary u-margin-bottom-small">I had the best journey ever with myself</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-small">3 day stay at rara and magical moments</h3>
                     <p>
-                        adipisicing elit. Laudantium, rem illo assumenda ex provident
-              consequatur recusandae corporis dolor repellat ipsam sit quisquam
-              tenetur, vel consectetur iusto mollitia omnis? Ipsam, qui? adipisicing elit. Laudantium, rem illo assumenda ex provident
-              consequatur recusandae
+                        After hours of walking through the forest I saw something Like a clear sky. Then when I wondered why this sky is looking below from me, then I found out it was Rara lake. A small piece of sky at the middle of forest. So, much far from crowed and close to nature. And that moment I don't know how, tear of joy flowed through my eyes.
                     </p>
                 </div>
             </div>
@@ -297,12 +289,9 @@
                 <figcaption class="story__caption">Lalit Sunar</figcaption>
               </figure>
               <div class="story__text">
-                  <h3 class="heading-tertiary u-margin-bottom-small">It's giving meaning to my journey</h3>
+                  <h3 class="heading-tertiary u-margin-bottom-small">I was top of the world and cloud was below me</h3>
                   <p>
-                      adipisicing elit. Laudantium, rem illo assumenda ex provident
-            consequatur recusandae corporis dolor repellat ipsam sit quisquam
-            tenetur, vel consectetur iusto mollitia omnis? Ipsam, qui? adipisicing elit. Laudantium, rem illo assumenda ex provident
-            consequatur recusandae
+                      I had to cancel my plan again. It was sunday, me and my friend was read to Ganesh Temple which was at the middle of the forest. But due to heavy rain we could go there last day. But that time we really had to go. So, we went to that temple. Rain drops was falling. But We made it to the top. And It was best time of my life.
                   </p>
               </div>
           </div>
@@ -313,13 +302,13 @@
       </section>
 
       <!-- Booking section -->
-      <section class="section-book">
+      <section class="section-book" id="excited">
         <div class="row">
           <div class="book">
             <div class="book__form">
                 <div class="u-margin-bottom-medium">
                     <h2 class="heading-secondary">
-                      Start Booking Now 
+                      Are you excited for travel Log
                     </h2>
                   </div>
               <form action="#" class="form">
@@ -337,7 +326,7 @@
                       <label for="small" class="form__radio-label">
                         <span class="form__radio-button">
                         </span>
-                        Small tour group
+                        Yes! It's excited
                       </label>
                     </div>
 
@@ -346,12 +335,12 @@
                       <label for="large" class="form__radio-label">
                           <span class="form__radio-button">
                             </span>
-                        Large tour group
+                        Not Excited
                       </label>
                     </div>
                   </div>
                   <div class="form__group">
-                    <button class="btn btn--green">Next Step &rarr;</button>
+                    <button class="btn btn--green">Submit Feedback &rarr;</button>
                   </div>
               </form>
             </div>
@@ -471,5 +460,12 @@
                 </div>
             </div>
         </section> -->
+
+        <script>
+          function RemoveNav(){
+            document.getElementById("navi-toggle").checked = false;
+          }
+          
+        </script>
   </body>
 </html>
